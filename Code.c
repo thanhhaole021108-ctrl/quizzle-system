@@ -248,11 +248,26 @@ int main() {
             'D'
         },
         {
-            "Khi truyen mot mang mot chieu lam tham so vao mot ham trong ngon ngu C, tai sao co che mac dinh lai la truyen dia chi cua mang chu khong phai truyen ban sao toan bo du lieu mang?", 
-            "Vi ngon ngu C khong ho tro thao tac du lieu kieu mang ben trong ham.", 
-            "De toi uu thoi gian thuc thi va tiet kiem dung luong bo nho (Stack), tranh viec phai sao chep toan bo khoi du lieu lon cua mang khi goi ham.", 
-            "Vi mang trong C la hang so co dinh nen khong the sao chep.", 
-            "De dam bao ngan ngua hoan toan tinh trang ro ri bo nho trong chuong trinh.", 
+           "Cho doan code sau:
+              #include <stdio.h>
+               int main(){
+                int a[5]={1,2,3,4,5};
+                int S = 0;
+                for (int i=0;i<5;i++){
+                    if (a[i]%2 == 0){
+                        S +=a[i]*2;
+                } else {
+                   S +=a[i];
+                 }
+                 }
+                  printf("%d,S);
+                  return 0;
+                 }
+                  Man hinh se in ra ket qua nao sau day?", 
+            "15", 
+            "21", 
+            "18", 
+            "30", 
             'B'
         }
     };
