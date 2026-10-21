@@ -248,27 +248,13 @@ int main() {
             'D'
         },
         {
-            "Cho doan code sau:
-              #include <stdio.h>
-               int main(){
-                int a[5]={1,2,3,4,5};
-                int S = 0;
-                for (int i=0;i<5;i++){
-                    if (a[i]%2 == 0){
-                        S +=a[i]*2;
-                } else {
-                   S +=a[i];
-                 }
-                 }
-                  printf("%d,S);
-                  return 0;
-                 }
-                  Man hinh se in ra ket qua nao sau day?", 
+"Cho doan code sau:\n#include <stdio.h>\nint main() {\n    int a[5] = {1, 2, 3, 4, 5};\n    int S = 0;\n    for (int i = 0; i < 5; i++) {\n        if (a[i] % 2 == 0) S += a[i] * 2;\n        else S += a[i];\n    }\n    printf(\"%d\", S);\n    return 0;\n}\nMan hinh se in ra ket qua nao sau day?", 
             "15", 
             "21", 
             "18", 
             "30", 
             'B'
+
         }
     };
 
