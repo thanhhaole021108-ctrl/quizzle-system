@@ -383,19 +383,7 @@ Hoặc chạy trực tiếp tệp thực thi trong Windows Terminal / Command Pr
 
 **Bước 9:** Chọn thi lại hoặc kết thúc chương trình.
 
-## 10. Những điểm kỹ thuật đáng chú ý
-
-- Sử dụng `struct` để tổ chức dữ liệu câu hỏi và thông tin thí sinh.
-- Sử dụng mảng cấu trúc để quản lý ngân hàng câu hỏi.
-- Sử dụng con trỏ cấu trúc khi truyền thông tin thí sinh vào hàm.
-- Chia chương trình thành các hàm chức năng riêng biệt.
-- Sử dụng `rand()` và `srand()` để tạo thứ tự câu hỏi ngẫu nhiên.
-- Sử dụng `GetTickCount()` để kiểm soát thời gian làm bài.
-- Sử dụng `INPUT_RECORD` để xử lý sự kiện chuột và bàn phím.
-- Sử dụng các hàm Windows API để xây dựng giao diện Console tương tác.
-- Sử dụng mảng để lưu trữ câu trả lời và thống kê kết quả.
-
-## 11. Hạn chế hiện tại
+## 10. Hạn chế hiện tại
 
 - Chương trình chỉ hỗ trợ hệ điều hành Windows.
 - Ngân hàng câu hỏi được khai báo trực tiếp trong mã nguồn.
@@ -404,7 +392,7 @@ Hoặc chạy trực tiếp tệp thực thi trong Windows Terminal / Command Pr
 - Giao diện phụ thuộc vào kích thước cửa sổ Console.
 - Nội dung câu hỏi hiện được lưu dưới dạng chuỗi không dấu để hạn chế vấn đề hiển thị ký tự trong Console.
 
-## 12. Hướng phát triển
+## 11. Hướng phát triển
 
 Trong tương lai, dự án có thể được mở rộng với các chức năng:
 
@@ -417,22 +405,11 @@ Trong tương lai, dự án có thể được mở rộng với các chức nă
 - Tách mã nguồn thành nhiều tệp `.c` và `.h` để dễ quản lý.
 - Xây dựng hệ thống thống kê kết quả qua nhiều lần thi.
 
-## 13. Mục tiêu học tập
+--- 
+## Project by
+- [LÊ ĐOÀN THANH HẢO MSSV: 6751071018]
+- [TRẦN DIỆU LINH MSSV: 675071044]
+- [HOÀNG THIÊN ÂN MSSV: 6751071005]
+- [ĐOÀN ĐỨC HIẾU MSSV : 6751071022]
+- [BÙI VIỆT HOÀNG MSSV: 6751071024]
 
-Dự án được thực hiện nhằm củng cố và vận dụng kiến thức lập trình C vào một sản phẩm có tính ứng dụng thực tế.
-
-Thông qua quá trình xây dựng, nhóm có cơ hội thực hành:
-- Thiết kế cấu trúc dữ liệu.
-- Tổ chức và quản lý luồng dữ liệu.
-- Xây dựng thuật toán xử lý.
-- Phân chia chức năng bằng hàm.
-- Làm việc với mảng, con trỏ và chuỗi.
-- Xử lý sự kiện đầu vào.
-- Kiểm thử và hoàn thiện chương trình.
-
----
-
-**Project:** C / Kiểm tra kiến thức – Trắc nghiệm tương tác  
-**Language:** C  
-**Platform:** Windows Console  
-**Status:** In Development
