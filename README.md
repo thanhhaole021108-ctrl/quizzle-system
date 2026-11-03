@@ -22,8 +22,11 @@ Chương trình được xây dựng nhằm vận dụng kiến thức lập tr�
 - Nhập mã số sinh viên.
 - Kiểm tra thông tin nhập vào, không cho phép để trống.
 - Hiển thị thông tin thí sinh trong bảng kết quả sau khi thi.
-
-### 2.2. Lựa chọn môn thi
+### 2.2. Vai trò của admin
+- Kiểm tra chống gian lận của học sinh
+- Quản lý ngân hàng câu hỏi và đáp án
+- Kiểm tra phiếu điểm của học sinh
+### 2.3. Lựa chọn môn thi
 
 Chương trình cung cấp hai môn thi:
 
@@ -34,7 +37,7 @@ Chương trình cung cấp hai môn thi:
 
 Tổng ngân hàng câu hỏi gồm **40 câu trắc nghiệm**.
 
-### 2.3. Tạo đề thi ngẫu nhiên
+### 2.4. Tạo đề thi ngẫu nhiên
 
 Mỗi môn thi có 20 câu hỏi được chia thành ba mức độ:
 
@@ -56,7 +59,7 @@ Chương trình tạo ngẫu nhiên một trong ba dạng đề:
 
 Sau khi lấy câu hỏi theo từng mức độ, chương trình tiếp tục trộn thứ tự tổng thể để các câu hỏi xuất hiện xen kẽ ngẫu nhiên.
 
-### 2.4. Giao diện làm bài
+### 2.5. Giao diện làm bài
 
 - Giao diện Console sử dụng màu sắc để phân biệt các thành phần.
 - Hỗ trợ chọn đáp án bằng chuột hoặc bàn phím A, B, C, D.
@@ -67,7 +70,7 @@ Sau khi lấy câu hỏi theo từng mức độ, chương trình tiếp tục t
 - Có đồng hồ đếm ngược thời gian làm bài.
 - Phát âm thanh khi thao tác và khi trả lời đúng hoặc sai.
 
-### 2.5. Quản lý thời gian
+### 2.6. Quản lý thời gian
 
 - Thời gian tối đa cho mỗi bài thi: **20 phút**.
 - Đồng hồ được cập nhật trong quá trình làm bài.
@@ -75,7 +78,7 @@ Sau khi lấy câu hỏi theo từng mức độ, chương trình tiếp tục t
 - Khi hết thời gian, chương trình thông báo và hiển thị đáp án đúng của câu hỏi hiện tại.
 - Thời gian làm bài thực tế và thời gian còn lại được hiển thị trong bảng kết quả.
 
-### 2.6. Chấm điểm và thống kê kết quả
+### 2.7. Chấm điểm và thống kê kết quả
 
 Sau khi hoàn thành bài thi, chương trình tự động:
 - Kiểm tra từng đáp án.
@@ -97,7 +100,7 @@ Sau khi hoàn thành bài thi, chương trình tự động:
 
 Kết quả được hiển thị cùng thông tin thí sinh và môn thi.
 
-### 2.7. Xem lại bài làm
+### 2.8. Xem lại bài làm
 
 Sau khi thi, thí sinh có thể lựa chọn xem lại bài làm.
 
@@ -109,7 +112,7 @@ Chức năng này hỗ trợ:
 - So sánh đáp án đã chọn với đáp án chính xác.
 - Hiển thị nội dung câu hỏi có chứa mã nguồn C.
 
-### 2.8. Hiệu ứng giao diện
+### 2.9. Hiệu ứng giao diện
 
 Chương trình có các hiệu ứng nhằm tăng tính tương tác:
 - Hiệu ứng rồng phun lửa khi trả lời đúng.
